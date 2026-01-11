@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Navigation, X, Battery, Clock, MapPin, ChevronUp, Volume2, VolumeX } from 'lucide-react';
 import { RouteStop } from '@/lib/evData';
@@ -14,6 +14,7 @@ interface NavigationModeProps {
   etaToNext: string;
   currentBattery: number;
   totalProgress: number;
+  instruction: string;
 }
 
 const NavigationMode = ({
@@ -25,10 +26,10 @@ const NavigationMode = ({
   etaToNext,
   currentBattery,
   totalProgress,
+  instruction,
 }: NavigationModeProps) => {
   const [isMuted, setIsMuted] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
-  const [currentInstruction, setCurrentInstruction] = useState('Head northeast on NH-48');
 
   const getBatteryColor = (percentage: number) => {
     if (percentage >= 50) return 'text-success';
@@ -74,7 +75,7 @@ const NavigationMode = ({
                 <Navigation className="w-8 h-8 text-primary-foreground" />
               </div>
               <div className="flex-1">
-                <p className="text-2xl font-bold text-foreground">{currentInstruction}</p>
+                <p className="text-2xl font-bold text-foreground">{instruction}</p>
                 <p className="text-sm text-muted-foreground mt-1">
                   {distanceToNext} km • {etaToNext}
                 </p>
