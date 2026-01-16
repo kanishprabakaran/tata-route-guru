@@ -71,25 +71,27 @@ This project is under active development and continuously evolving with new inte
 ---
 
 ## License
+# Team Unified Logic — Tata Technologies InnoVent (Public Repository)
 
-MIT License
+This **public repository** is maintained by **Team Unified Logic** as part of the **Tata Technologies InnoVent (2025–2026)** event.
 
-Copyright (c) 2026 Kanish Prabakaran
+It contains project-related resources, documentation, and materials prepared for the InnoVent submission and demo presentation.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Copyright & Usage
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+© 2026 **Team Unified Logic**. All rights reserved.
+
+This repository and its contents (including but not limited to source code, documents, diagrams, UI/UX assets, and other deliverables) are protected under applicable copyright laws.
+
+**No part of this repository may be copied, reproduced, modified, published, distributed, or used commercially without prior written permission from Team Unified Logic.**
+
+---
+
+## Contact
+
+For access requests or collaboration inquiries, please contact **Team Unified Logic**.
+FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
